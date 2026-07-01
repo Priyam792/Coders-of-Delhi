@@ -5,6 +5,7 @@ A beginner-friendly collection of Python data science mini-projects built using 
 These projects were built after learning the concepts through **CodeWithHarry's Data Science Course**. The goal was simple: understand the theory, then implement it independently through hands-on projects.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
@@ -23,15 +24,17 @@ These projects were built after learning the concepts through **CodeWithHarry's 
 
 ### 3. People You May Know
 - Simulates a friend recommendation system
-- Identifies potential connections from JSON data based on shared attributes
+- Suggests connections based on mutual friends, ranked by overlap
 
 ### 4. Pages You Might Like
-- A simple recommendation engine that suggests pages based on user interests stored in JSON
+- Suggests pages based on shared interests with other users
+- Ranks suggestions by similarity score
 
 ---
 
 ## 🛠️ Technologies Used
 - Python 3
+- Jupyter Notebook
 - JSON Module
 - File Handling
 
@@ -40,21 +43,23 @@ These projects were built after learning the concepts through **CodeWithHarry's 
 ## 📂 Repository Structure
 ```
 Coders-of-Delhi/
-│
 ├── 1 - Data Formatting/
 ├── 2 - Data Cleaning/
 ├── 3 - People You May Know/
 ├── 4 - Pages You Might Like/
 └── README.md
 ```
+Each folder contains its own Jupyter Notebook and a dedicated README with details specific to that project.
+
 ---
 
 ## ▶️ How to Run
 ```bash
 git clone https://github.com/Priyam792/Coders-of-Delhi.git
 cd Coders-of-Delhi/1\ -\ Data\ Formatting
-python main.py
+jupyter notebook
 ```
+Open the `.ipynb` file inside the folder and run all cells.
 *(Replace the folder name to run any other project.)*
 
 ---
