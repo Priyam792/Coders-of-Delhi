@@ -38,7 +38,7 @@ These projects were built after learning the concepts through **CodeWithHarry's 
 ---
 
 ## 📂 Repository Structure
-'''
+```
 Coders-of-Delhi/
 │
 ├── 1 - Data Formatting/
@@ -46,7 +46,7 @@ Coders-of-Delhi/
 ├── 3 - People You May Know/
 ├── 4 - Pages You Might Like/
 └── README.md
-'''
+```
 ---
 
 ## ▶️ How to Run
